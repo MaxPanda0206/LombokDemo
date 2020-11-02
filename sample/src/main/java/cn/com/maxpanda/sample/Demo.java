@@ -1,7 +1,5 @@
 package cn.com.maxpanda.sample;
 
-import cn.com.maxpanda.TestJavaSourceGenerate;
-
 /**
  * @author MaxPanda
  * @version 1.0.0
@@ -11,6 +9,6 @@ import cn.com.maxpanda.TestJavaSourceGenerate;
 
 public class Demo {
 	public static void main(String[] args) {
-		System.out.println(TestJavaSourceGenerate.getTest());
+		System.out.println("TestJavaSourceGenerate.getTest()");
 	}
 }

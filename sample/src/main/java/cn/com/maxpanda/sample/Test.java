@@ -1,6 +1,7 @@
 package cn.com.maxpanda.sample;
 
-import cn.com.maxpanda.library.annotation.Bind;
+import cn.com.maxpanda.library.annotation.Getter;
+import cn.com.maxpanda.library.annotation.Setter;
 
 /**
  * @author MaxPanda
@@ -8,6 +9,10 @@ import cn.com.maxpanda.library.annotation.Bind;
  * date 2020年10月30日 17:02
  * description TODO
  */
-@Bind
 public class Test {
+
+	@Setter
+	@Getter
+	private String name;
+
 }
